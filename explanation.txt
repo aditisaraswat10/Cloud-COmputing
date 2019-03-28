@@ -1,0 +1,33 @@
+Flask app using Cassandra database and Genius Song lyrics API
+
+lyricsgenius -- python wrapper for Genius API
+flask-cqlalchemy -- python wrapper for cassandra
+
+Database - cassandra cluster running on google cloud with three replicas
+Keyspace - Genius with replication factor 2
+Local songdata.csv containing artists and list of songs copied to database
+
+Three REST Methods
+get_artists -- returns a list of all artists in db
+
+get_songs -- returns a list of all songs for an artist
+
+get_lyrics -- searches for the lyrics of a song by an artist, returns if found. if not, error response.
+
+HTTPS
+
+self signed key and certificate generated using openssl
+server using Flask's built-in ssl_context
+
+
+
+***APP USAGE*****
+
+https://35.246.75.237/            ---------   gives you a list of all artists
+
+https://35.246.75.237/<artist>     ---------- gives you a list of all songs by the artist specified
+https://35.246.75.237/Zoe
+
+
+https://35.246.75.237/<artist>/<song>       ------------ gives you the song lyrics if found
+https://35.246.75.237/Zoe/Sunshine On A Rainy Day
