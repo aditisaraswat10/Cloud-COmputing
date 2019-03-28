@@ -59,7 +59,9 @@ This is successful if the terminal is displaying the following:
 ```
 Clicking on the link should take you to the website.
 
-
+Wrappers used:
+lyricsgenius-python wrapper for genius api
+flask-cqlalchemy- Python wrapper for Cassandra 
 
 ## Deployment
 
