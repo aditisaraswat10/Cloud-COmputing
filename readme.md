@@ -123,7 +123,6 @@ Check services for the IP address
 
 * [Cassandra](http://cassandra.apache.org/doc/latest/) - Database used
 * [Flask](http://flask.pocoo.org/docs/1.0/) - Web framework used
-*
 
 
 ## Authors
