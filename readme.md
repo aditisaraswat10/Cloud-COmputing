@@ -1,7 +1,7 @@
 # Genius/Lyrics App
 
-This app is a lyrics app which retrieves the lyrics information of songs from any specific artist from external APIs.
-The app also has an internal API where you have the ability to view, add and delete existing song entries that in the app. Information is returned in a JSON format.
+This application retrieves the lyrics of songs from any specific artist using external APIs.
+The app also has an internal API where you have the ability to view, add and delete existing song entries in the app. Information is returned in a JSON format.
 
 ## Getting Started
 
